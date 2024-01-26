@@ -15,6 +15,6 @@ $disciplina = new disciplina("Análise de Dados", 123, [$professor1], [$aluno1, 
 
 $json = "dados.json";
 
-file_put_contents($json, var_export($disciplina, true));
+file_put_contents($json, json_encode($disciplina, JSON_PRETTY_PRINT));
 
 ?>
