@@ -1,0 +1,44 @@
+\disciplina::__set_state(array(
+   'nome' => 'Análise de Dados',
+   'carga_horaria' => 123,
+   'professor' => 
+  array (
+    0 => 
+    \professor::__set_state(array(
+       'nome' => 'Ernesto',
+       'idade' => 45,
+       'disciplinas' => 
+      array (
+        0 => 'Empreendedorismo',
+        1 => 'Projeto de Software',
+      ),
+    )),
+  ),
+   'alunos' => 
+  array (
+    0 => 
+    \aluno::__set_state(array(
+       'nome' => 'Lucas',
+       'idade' => 19,
+       'matricula' => 12345,
+       'notas' => 
+      array (
+        0 => 1,
+        1 => 2,
+        2 => 3,
+      ),
+    )),
+    1 => 
+    \aluno::__set_state(array(
+       'nome' => 'Pedro',
+       'idade' => 24,
+       'matricula' => 24512,
+       'notas' => 
+      array (
+        0 => 6,
+        1 => 4,
+        2 => 9,
+      ),
+    )),
+  ),
+))
