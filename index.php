@@ -17,4 +17,8 @@ $json = "dados.json";
 
 file_put_contents($json, json_encode($disciplina, JSON_PRETTY_PRINT));
 
+
+$aluno1 -> setNotas([4, 6, 1]);
+$notas = json_encode($aluno1 -> getNotas());
+echo $notas . "\n";
 ?>
