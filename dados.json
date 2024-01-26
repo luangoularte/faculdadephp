@@ -1,16 +1,14 @@
 {
     "nome": "An\u00e1lise de Dados",
     "carga_horaria": 123,
-    "professor": [
-        {
-            "nome": "Ernesto",
-            "idade": 45,
-            "disciplinas": [
-                "Empreendedorismo",
-                "Projeto de Software"
-            ]
-        }
-    ],
+    "professor": {
+        "nome": "Ernesto",
+        "idade": 45,
+        "disciplinas": [
+            "Empreendedorismo",
+            "Projeto de Software"
+        ]
+    },
     "alunos": [
         {
             "nome": "Lucas",

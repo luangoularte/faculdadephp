@@ -11,7 +11,7 @@ $aluno2 = new aluno(24512, [6, 4, 9], "Pedro", 24);
 $professor1 = new professor(["Empreendedorismo", "Projeto de Software"], "Ernesto", 45);
 $professor2 = new professor(["Análise de Dados", "Banco de Dados"], "Luciano", 54);
 
-$disciplina = new disciplina("Análise de Dados", 123, [$professor1], [$aluno1, $aluno2]);
+$disciplina = new disciplina("Analise de Dados", 123, $professor1, [$aluno1, $aluno2]);
 
 $json = "dados.json";
 
